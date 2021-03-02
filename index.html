@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/607a2eb51d.js"></script>
+    
+</head>
+<body>
+    <!--language options-->
+    <div class="language-options">
+        <ul>
+            <li><a href="#">GE</a></li>
+            <li><a href="#">EN</a></li>
+            <li><a href="#">DE</a></li>
+            <li><a href="#">RU</a></li>
+        </ul>
+    </div>
+     <!--language options ends here-->
+
+      <!--header for mibile-->
+      <div class="header-mobile">
+        <i onclick="show()" class="fa fa-bars"></i>
+        <i  class="fa fa-search" aria-hidden="true"></i>
+        <h1 id="mobile-logo">BonusTravel</h1>
+      </div>
+      
+      <div class="navigation" id="nav">
+        <ul>
+          <li><a href="#">მთავარი</a></li>
+          <li><a href="#">ჩვენს შესახებ</a></li>
+          <li><a href="#">ტურები <i class="fa fa-angle-down" aria-hidden="true"></i></a></i>
+          </li>
+          <li><a href="#">ტრანსპორტი <i class="fa fa-angle-down" aria-hidden="true"></i></a></i>
+          </li>
+          <li><a href="#">პარტნიორები</a></li>
+          <li><a href="#">კონტაქტი</a></li>
+        </ul>
+        
+          <footer>
+          <ul class="lang">
+              <li><a href="#">GE</a></li>
+              <li><a href="#">EN</a></li>
+              <li><a href="#">DE</a></li>
+              <li><a href="#">RU</a></li>
+          </ul>
+          </footer>
+       </div>
+      </div>
+      <!--navigation ends here-->
+      
+
+         <div class="header-img">
+        <img src="img/van-1.jpg" alt="">
+      </div>
+
+      
+      <div class="wrapper">
+      <div class="content">
+          <div class="info">
+         <h1>ჩვენს შესახებ</h1>
+         <p>BonusTravel გერმანულ-ქართული ტურისტული კომპანია,
+            რომელმაც საქართველოში საქმიანობა 2019 წელხ დაიწყო,
+            კომპანია აერთიანებს 30 წლიან გამოცდილებას ევროპულ და
+            ქართულ ტურისტულ ბაზარზე. რაც, ვფიქრობთ, სანდოობის ერთ-
+            ერთი მთავარი გარანტია. ოპერატიულობის, გამოცდილებისა და
+            კვალიფიკაციის სინთეზი თავხ ბუნებრივად სანდო გარემოში
+            გაგრძნობინებთ.</p>
+             <p>BonusTravel-ში ვერ მოისმენთ მორიგ მოსაწყენ შეთავაზებას
+                მორიგი ტურისტული კომპანიისგან. პროფესიონალებით
+                დაკომპლექტებული გუნდი გეგმავს თქვენს მოგზაურობას და
+                გარწმუნებთ რომ, კომპანიის რესურსი,მომსახურების ხარისხი და
+                მრავალფეროვნება თქვენს ხაშუდამო კეთილგანწყობას
+                დაიმსასურებს.</p>
+             </div>
+                <img src="img/geoger.jpg" alt="">
+      </div>
+    </div>
+
+
+<div class="tours">
+    <h1>ტურები</h1>
+    <div class="tour-boxes">
+    <div>
+        <img src="img/monaco.jpg" alt="">
+        <p>მონაკო (5 დღე/4 ღამე)</p>
+        <a href="#">ვრცლად</a>
+    </div>
+    <div>
+        <img src="img/venice.jpg" alt="">
+        <p>ვენეცია (4 დღე/3 ღამე)</p>
+        <a href="#">ვრცლად</a>
+    </div>
+    <div> 
+        <img src="img/munich.jpg" alt="">
+        <p>მიუნხენი (5 დღე/4 ღამე)</p>
+        <a href="#">ვრცლად</a>    
+        </div>
+        </div>
+        
+    </div>
+  </div>
+
+  <div class="gallery">
+      <p>გალერეა</p>
+  </div>
+<script>
+    function show(){
+  var nav=document.getElementById("nav");
+
+    if(nav.style.left=="0px")
+      {
+        nav.style.left="-310px";
+      }else{
+        nav.style.left="0px";
+      }
+}
+
+</script>
+</body>
+</html>
